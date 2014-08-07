@@ -19,6 +19,9 @@
 		45A6320F1993E3B200A7EA01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A631F71993E3B100A7EA01 /* UIKit.framework */; };
 		45A632171993E3B200A7EA01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A632151993E3B200A7EA01 /* InfoPlist.strings */; };
 		45A632191993E3B200A7EA01 /* RMPSpringCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A632181993E3B200A7EA01 /* RMPSpringCollectionViewTests.m */; };
+		45F6CE221993E67900C5FAEA /* RMPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F6CE201993E67900C5FAEA /* RMPCollectionViewController.m */; };
+		45F6CE231993E67900C5FAEA /* RMPCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F6CE211993E67900C5FAEA /* RMPCollectionViewController.xib */; };
+		45F6CE261993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F6CE251993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		45A632141993E3B200A7EA01 /* RMPSpringCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMPSpringCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		45A632161993E3B200A7EA01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45A632181993E3B200A7EA01 /* RMPSpringCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMPSpringCollectionViewTests.m; sourceTree = "<group>"; };
+		45F6CE1F1993E67900C5FAEA /* RMPCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPCollectionViewController.h; sourceTree = "<group>"; };
+		45F6CE201993E67900C5FAEA /* RMPCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPCollectionViewController.m; sourceTree = "<group>"; };
+		45F6CE211993E67900C5FAEA /* RMPCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMPCollectionViewController.xib; sourceTree = "<group>"; };
+		45F6CE241993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPSpringCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		45F6CE251993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPSpringCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +115,9 @@
 		45A631F91993E3B200A7EA01 /* RMPSpringCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				45A632021993E3B200A7EA01 /* RMPAppDelegate.h */,
-				45A632031993E3B200A7EA01 /* RMPAppDelegate.m */,
+				45F6CE1E1993E61D00C5FAEA /* Demo */,
+				45F6CE241993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.h */,
+				45F6CE251993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.m */,
 				45A632051993E3B200A7EA01 /* Images.xcassets */,
 				45A631FA1993E3B200A7EA01 /* Supporting Files */,
 			);
@@ -142,6 +151,18 @@
 				45A632151993E3B200A7EA01 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45F6CE1E1993E61D00C5FAEA /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				45A632021993E3B200A7EA01 /* RMPAppDelegate.h */,
+				45A632031993E3B200A7EA01 /* RMPAppDelegate.m */,
+				45F6CE1F1993E67900C5FAEA /* RMPCollectionViewController.h */,
+				45F6CE201993E67900C5FAEA /* RMPCollectionViewController.m */,
+				45F6CE211993E67900C5FAEA /* RMPCollectionViewController.xib */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +243,7 @@
 			files = (
 				45A631FE1993E3B200A7EA01 /* InfoPlist.strings in Resources */,
 				45A632061993E3B200A7EA01 /* Images.xcassets in Resources */,
+				45F6CE231993E67900C5FAEA /* RMPCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A632041993E3B200A7EA01 /* RMPAppDelegate.m in Sources */,
+				45F6CE261993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.m in Sources */,
 				45A632001993E3B200A7EA01 /* main.m in Sources */,
+				45F6CE221993E67900C5FAEA /* RMPCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +464,7 @@
 				45A6321E1993E3B200A7EA01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45A6321F1993E3B200A7EA01 /* Build configuration list for PBXNativeTarget "RMPSpringCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +473,7 @@
 				45A632211993E3B200A7EA01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

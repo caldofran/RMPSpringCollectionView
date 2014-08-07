@@ -7,13 +7,15 @@
 //
 
 #import "RMPAppDelegate.h"
+#import "RMPCollectionViewController.h"
 
 @implementation RMPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    RMPCollectionViewController *collectionViewController = [[RMPCollectionViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = collectionViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
