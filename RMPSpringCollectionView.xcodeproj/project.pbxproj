@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A631F41993E3B100A7EA01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A631F31993E3B100A7EA01 /* Foundation.framework */; };
+		45A631F61993E3B100A7EA01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A631F51993E3B100A7EA01 /* CoreGraphics.framework */; };
+		45A631F81993E3B100A7EA01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A631F71993E3B100A7EA01 /* UIKit.framework */; };
+		45A631FE1993E3B200A7EA01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A631FC1993E3B200A7EA01 /* InfoPlist.strings */; };
+		45A632001993E3B200A7EA01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A631FF1993E3B200A7EA01 /* main.m */; };
+		45A632041993E3B200A7EA01 /* RMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A632031993E3B200A7EA01 /* RMPAppDelegate.m */; };
+		45A632061993E3B200A7EA01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A632051993E3B200A7EA01 /* Images.xcassets */; };
+		45A6320D1993E3B200A7EA01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A6320C1993E3B200A7EA01 /* XCTest.framework */; };
+		45A6320E1993E3B200A7EA01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A631F31993E3B100A7EA01 /* Foundation.framework */; };
+		45A6320F1993E3B200A7EA01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A631F71993E3B100A7EA01 /* UIKit.framework */; };
+		45A632171993E3B200A7EA01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A632151993E3B200A7EA01 /* InfoPlist.strings */; };
+		45A632191993E3B200A7EA01 /* RMPSpringCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A632181993E3B200A7EA01 /* RMPSpringCollectionViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45A632101993E3B200A7EA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A631E81993E3B100A7EA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A631EF1993E3B100A7EA01;
+			remoteInfo = RMPSpringCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45A631F01993E3B100A7EA01 /* RMPSpringCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMPSpringCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A631F31993E3B100A7EA01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45A631F51993E3B100A7EA01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45A631F71993E3B100A7EA01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45A631FB1993E3B200A7EA01 /* RMPSpringCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMPSpringCollectionView-Info.plist"; sourceTree = "<group>"; };
+		45A631FD1993E3B200A7EA01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45A631FF1993E3B200A7EA01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45A632011993E3B200A7EA01 /* RMPSpringCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMPSpringCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		45A632021993E3B200A7EA01 /* RMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMPAppDelegate.h; sourceTree = "<group>"; };
+		45A632031993E3B200A7EA01 /* RMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMPAppDelegate.m; sourceTree = "<group>"; };
+		45A632051993E3B200A7EA01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45A6320B1993E3B200A7EA01 /* RMPSpringCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMPSpringCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A6320C1993E3B200A7EA01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45A632141993E3B200A7EA01 /* RMPSpringCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMPSpringCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
+		45A632161993E3B200A7EA01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45A632181993E3B200A7EA01 /* RMPSpringCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMPSpringCollectionViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A631ED1993E3B100A7EA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A631F61993E3B100A7EA01 /* CoreGraphics.framework in Frameworks */,
+				45A631F81993E3B100A7EA01 /* UIKit.framework in Frameworks */,
+				45A631F41993E3B100A7EA01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A632081993E3B200A7EA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A6320D1993E3B200A7EA01 /* XCTest.framework in Frameworks */,
+				45A6320F1993E3B200A7EA01 /* UIKit.framework in Frameworks */,
+				45A6320E1993E3B200A7EA01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A631E71993E3B100A7EA01 = {
+			isa = PBXGroup;
+			children = (
+				45A631F91993E3B200A7EA01 /* RMPSpringCollectionView */,
+				45A632121993E3B200A7EA01 /* RMPSpringCollectionViewTests */,
+				45A631F21993E3B100A7EA01 /* Frameworks */,
+				45A631F11993E3B100A7EA01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45A631F11993E3B100A7EA01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A631F01993E3B100A7EA01 /* RMPSpringCollectionView.app */,
+				45A6320B1993E3B200A7EA01 /* RMPSpringCollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A631F21993E3B100A7EA01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A631F31993E3B100A7EA01 /* Foundation.framework */,
+				45A631F51993E3B100A7EA01 /* CoreGraphics.framework */,
+				45A631F71993E3B100A7EA01 /* UIKit.framework */,
+				45A6320C1993E3B200A7EA01 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45A631F91993E3B200A7EA01 /* RMPSpringCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				45A632021993E3B200A7EA01 /* RMPAppDelegate.h */,
+				45A632031993E3B200A7EA01 /* RMPAppDelegate.m */,
+				45A632051993E3B200A7EA01 /* Images.xcassets */,
+				45A631FA1993E3B200A7EA01 /* Supporting Files */,
+			);
+			path = RMPSpringCollectionView;
+			sourceTree = "<group>";
+		};
+		45A631FA1993E3B200A7EA01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A631FB1993E3B200A7EA01 /* RMPSpringCollectionView-Info.plist */,
+				45A631FC1993E3B200A7EA01 /* InfoPlist.strings */,
+				45A631FF1993E3B200A7EA01 /* main.m */,
+				45A632011993E3B200A7EA01 /* RMPSpringCollectionView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A632121993E3B200A7EA01 /* RMPSpringCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A632181993E3B200A7EA01 /* RMPSpringCollectionViewTests.m */,
+				45A632131993E3B200A7EA01 /* Supporting Files */,
+			);
+			path = RMPSpringCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		45A632131993E3B200A7EA01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A632141993E3B200A7EA01 /* RMPSpringCollectionViewTests-Info.plist */,
+				45A632151993E3B200A7EA01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A631EF1993E3B100A7EA01 /* RMPSpringCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A6321C1993E3B200A7EA01 /* Build configuration list for PBXNativeTarget "RMPSpringCollectionView" */;
+			buildPhases = (
+				45A631EC1993E3B100A7EA01 /* Sources */,
+				45A631ED1993E3B100A7EA01 /* Frameworks */,
+				45A631EE1993E3B100A7EA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMPSpringCollectionView;
+			productName = RMPSpringCollectionView;
+			productReference = 45A631F01993E3B100A7EA01 /* RMPSpringCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45A6320A1993E3B200A7EA01 /* RMPSpringCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A6321F1993E3B200A7EA01 /* Build configuration list for PBXNativeTarget "RMPSpringCollectionViewTests" */;
+			buildPhases = (
+				45A632071993E3B200A7EA01 /* Sources */,
+				45A632081993E3B200A7EA01 /* Frameworks */,
+				45A632091993E3B200A7EA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A632111993E3B200A7EA01 /* PBXTargetDependency */,
+			);
+			name = RMPSpringCollectionViewTests;
+			productName = RMPSpringCollectionViewTests;
+			productReference = 45A6320B1993E3B200A7EA01 /* RMPSpringCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A631E81993E3B100A7EA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RMP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Caldofran;
+				TargetAttributes = {
+					45A6320A1993E3B200A7EA01 = {
+						TestTargetID = 45A631EF1993E3B100A7EA01;
+					};
+				};
+			};
+			buildConfigurationList = 45A631EB1993E3B100A7EA01 /* Build configuration list for PBXProject "RMPSpringCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45A631E71993E3B100A7EA01;
+			productRefGroup = 45A631F11993E3B100A7EA01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A631EF1993E3B100A7EA01 /* RMPSpringCollectionView */,
+				45A6320A1993E3B200A7EA01 /* RMPSpringCollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A631EE1993E3B100A7EA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A631FE1993E3B200A7EA01 /* InfoPlist.strings in Resources */,
+				45A632061993E3B200A7EA01 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A632091993E3B200A7EA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A632171993E3B200A7EA01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A631EC1993E3B100A7EA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A632041993E3B200A7EA01 /* RMPAppDelegate.m in Sources */,
+				45A632001993E3B200A7EA01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A632071993E3B200A7EA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A632191993E3B200A7EA01 /* RMPSpringCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45A632111993E3B200A7EA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A631EF1993E3B100A7EA01 /* RMPSpringCollectionView */;
+			targetProxy = 45A632101993E3B200A7EA01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45A631FC1993E3B200A7EA01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A631FD1993E3B200A7EA01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45A632151993E3B200A7EA01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A632161993E3B200A7EA01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A6321A1993E3B200A7EA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45A6321B1993E3B200A7EA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45A6321D1993E3B200A7EA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMPSpringCollectionView/RMPSpringCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "RMPSpringCollectionView/RMPSpringCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45A6321E1993E3B200A7EA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMPSpringCollectionView/RMPSpringCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "RMPSpringCollectionView/RMPSpringCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45A632201993E3B200A7EA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMPSpringCollectionView.app/RMPSpringCollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMPSpringCollectionView/RMPSpringCollectionView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RMPSpringCollectionViewTests/RMPSpringCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45A632211993E3B200A7EA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMPSpringCollectionView.app/RMPSpringCollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMPSpringCollectionView/RMPSpringCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "RMPSpringCollectionViewTests/RMPSpringCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A631EB1993E3B100A7EA01 /* Build configuration list for PBXProject "RMPSpringCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A6321A1993E3B200A7EA01 /* Debug */,
+				45A6321B1993E3B200A7EA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A6321C1993E3B200A7EA01 /* Build configuration list for PBXNativeTarget "RMPSpringCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A6321D1993E3B200A7EA01 /* Debug */,
+				45A6321E1993E3B200A7EA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45A6321F1993E3B200A7EA01 /* Build configuration list for PBXNativeTarget "RMPSpringCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A632201993E3B200A7EA01 /* Debug */,
+				45A632211993E3B200A7EA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45A631E81993E3B100A7EA01 /* Project object */;
+}
