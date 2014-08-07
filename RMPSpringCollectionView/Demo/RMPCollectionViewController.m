@@ -7,44 +7,31 @@
 //
 
 #import "RMPCollectionViewController.h"
-#import "RMPSpringCollectionViewFlowLayout.h"
 
-@interface RMPCollectionViewController () <UICollectionViewDataSource>
-@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
-@property (weak, nonatomic) IBOutlet RMPSpringCollectionViewFlowLayout *collectionViewLayout;
+@interface RMPCollectionViewController ()
 
 @end
 
 @implementation RMPCollectionViewController
 
-static NSString * CellIdentifier = @"CellIdentifier";
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+static NSString * CellIdentifier = @"Cell";
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:CellIdentifier];
-    self.collectionView.dataSource = self;
+    self.collectionView.backgroundColor = [UIColor whiteColor];
 }
 
--(void)viewDidAppear:(BOOL)animated
+- (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     [self.collectionViewLayout invalidateLayout];
 }
-
 #pragma mark - UICollectionView Methods
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 120;
+    return 1000;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath

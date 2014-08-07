@@ -8,15 +8,15 @@
 
 #import "RMPAppDelegate.h"
 #import "RMPCollectionViewController.h"
+#import "RMPSpringCollectionViewFlowLayout.h"
 
 @implementation RMPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    RMPCollectionViewController *collectionViewController = [[RMPCollectionViewController alloc] initWithNibName:nil bundle:nil];
-    self.window.rootViewController = collectionViewController;
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[RMPCollectionViewController alloc] initWithCollectionViewLayout:[[RMPSpringCollectionViewFlowLayout alloc] init]]];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -20,7 +20,6 @@
 		45A632171993E3B200A7EA01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A632151993E3B200A7EA01 /* InfoPlist.strings */; };
 		45A632191993E3B200A7EA01 /* RMPSpringCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A632181993E3B200A7EA01 /* RMPSpringCollectionViewTests.m */; };
 		45F6CE221993E67900C5FAEA /* RMPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F6CE201993E67900C5FAEA /* RMPCollectionViewController.m */; };
-		45F6CE231993E67900C5FAEA /* RMPCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F6CE211993E67900C5FAEA /* RMPCollectionViewController.xib */; };
 		45F6CE261993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F6CE251993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		45A632181993E3B200A7EA01 /* RMPSpringCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMPSpringCollectionViewTests.m; sourceTree = "<group>"; };
 		45F6CE1F1993E67900C5FAEA /* RMPCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPCollectionViewController.h; sourceTree = "<group>"; };
 		45F6CE201993E67900C5FAEA /* RMPCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPCollectionViewController.m; sourceTree = "<group>"; };
-		45F6CE211993E67900C5FAEA /* RMPCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMPCollectionViewController.xib; sourceTree = "<group>"; };
 		45F6CE241993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPSpringCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		45F6CE251993E92F00C5FAEA /* RMPSpringCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPSpringCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,7 +158,6 @@
 				45A632031993E3B200A7EA01 /* RMPAppDelegate.m */,
 				45F6CE1F1993E67900C5FAEA /* RMPCollectionViewController.h */,
 				45F6CE201993E67900C5FAEA /* RMPCollectionViewController.m */,
-				45F6CE211993E67900C5FAEA /* RMPCollectionViewController.xib */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -243,7 +240,6 @@
 			files = (
 				45A631FE1993E3B200A7EA01 /* InfoPlist.strings in Resources */,
 				45A632061993E3B200A7EA01 /* Images.xcassets in Resources */,
-				45F6CE231993E67900C5FAEA /* RMPCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

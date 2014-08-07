@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RMPCollectionViewController : UIViewController
+@interface RMPCollectionViewController : UICollectionViewController
 
 @end
