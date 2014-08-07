@@ -26,8 +26,9 @@ static NSString * CellIdentifier = @"Cell";
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [self.collectionViewLayout invalidateLayout];
+//    [self.collectionViewLayout invalidateLayout];
 }
+
 #pragma mark - UICollectionView Methods
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
